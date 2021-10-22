@@ -1,0 +1,21 @@
+http:
+  addr: ":8002"
+  info_level: 1
+
+open_api:
+  host: ""
+  app_id: ""
+  secret: ""
+  paths:
+    upload_credential: "store/s3/ask_for_upload_credential"
+    secret_by_appid: "company/admin/company/secret_by_appid"
+    create_bucket: "store/s3/create_bucket"
+    delete_bucket: "store/s3/delete_bucket"
+    head_bucket: "store/s3/head_bucket"
+    list_bucket: "store/s3/list_buckets"
+    upload_file: "store/openapi/v1/upload_file"
+    download_file: "store/openapi/v1/download_file"
+    list_file: "store/s3/list_object"
+    delete_file: "store/s3/delete_object"
+    head_file: "store/s3/head_object"
+    get_cid: "store/s3/get_cid"
